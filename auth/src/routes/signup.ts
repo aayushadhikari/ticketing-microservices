@@ -6,6 +6,7 @@ import { BadRequestError } from "../errors/bad-request-error";
 import { User } from "../models/user";
 const router = express.Router();
 
+//need to create authentication workflow
 router.post(
   "/api/users/signup",
   [
